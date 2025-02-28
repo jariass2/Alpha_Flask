@@ -1365,83 +1365,28 @@
         "user_id": "jariass"
     },
     {
-        "timestamp": "2025-02-27 15:36:39",
+        "timestamp": "2025-02-28 17:44:16",
         "action": "Inicio de sesi\u00f3n",
         "user_id": "jariass"
     },
     {
-        "timestamp": "2025-02-27 15:36:41",
+        "timestamp": "2025-02-28 17:44:18",
         "action": "Ejecutar borrado",
         "user_id": "jariass"
     },
     {
-        "timestamp": "2025-02-27 15:37:11",
+        "timestamp": "2025-02-28 17:44:22",
         "action": "Ejecutar secuencia de scripts",
         "user_id": "jariass"
     },
     {
-        "timestamp": "2025-02-27 15:43:45",
-        "action": "Ejecutar borrado",
-        "user_id": "jariass"
-    },
-    {
-        "timestamp": "2025-02-27 15:43:49",
-        "action": "Ejecutar secuencia de scripts",
-        "user_id": "jariass"
-    },
-    {
-        "timestamp": "2025-02-27 15:46:20",
+        "timestamp": "2025-02-28 17:51:09",
         "action": "Inicio de sesi\u00f3n",
         "user_id": "jariass"
     },
     {
-        "timestamp": "2025-02-27 15:46:21",
+        "timestamp": "2025-02-28 17:51:11",
         "action": "Ejecutar borrado",
-        "user_id": "jariass"
-    },
-    {
-        "timestamp": "2025-02-27 15:46:27",
-        "action": "Ejecutar secuencia de scripts",
-        "user_id": "jariass"
-    },
-    {
-        "timestamp": "2025-02-27 15:48:18",
-        "action": "Inicio de sesi\u00f3n",
-        "user_id": "jariass"
-    },
-    {
-        "timestamp": "2025-02-27 15:48:20",
-        "action": "Ejecutar borrado",
-        "user_id": "jariass"
-    },
-    {
-        "timestamp": "2025-02-27 15:48:25",
-        "action": "Ejecutar secuencia de scripts",
-        "user_id": "jariass"
-    },
-    {
-        "timestamp": "2025-02-27 15:49:47",
-        "action": "Ejecutar borrado",
-        "user_id": "jariass"
-    },
-    {
-        "timestamp": "2025-02-27 15:49:55",
-        "action": "Ejecutar secuencia de scripts",
-        "user_id": "jariass"
-    },
-    {
-        "timestamp": "2025-02-28 10:33:23",
-        "action": "Inicio de sesi\u00f3n",
-        "user_id": "jariass"
-    },
-    {
-        "timestamp": "2025-02-28 10:33:24",
-        "action": "Ejecutar borrado",
-        "user_id": "jariass"
-    },
-    {
-        "timestamp": "2025-02-28 10:33:32",
-        "action": "Ejecutar secuencia de scripts",
         "user_id": "jariass"
     }
 ]

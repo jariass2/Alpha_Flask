@@ -1,0 +1,11 @@
+Flask==2.3.3
+Flask-Login==0.6.2
+Werkzeug==2.3.7
+
+duckdb
+pandas
+pyodbc
+ipython
+ipykernel
+xlsxwriter
+python-dotenv

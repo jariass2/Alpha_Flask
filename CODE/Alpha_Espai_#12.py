@@ -37,8 +37,8 @@ COLUMNA_MASTERFILE_TIENDA = 'TIENDA'
 COLUMNA_MASTERFILE_EST = 'EST'
 
 # Índices de inicio para las columnas de mes en los archivos Excel
-COLUMNA_VENTAS_MES_START_INDEX = 6
-COLUMNA_COMPRAS_MES_START_INDEX = 10
+COLUMNA_VENTAS_MES_START_INDEX = 5
+COLUMNA_COMPRAS_MES_START_INDEX = 11
 
 # Columnas en los PyG
 COLUMNA_PYG_CONCEPTO = 'concepto'
@@ -152,8 +152,13 @@ def process_compras(directory, sheet_name, previous_month, month_col_start_index
         df = df[1:]
 
         ceco_column = df.columns[COLUMNA_COMPRAS_CECO]
-        last_month_index = month_col_start_index + previous_month if previous_month == 12 else month_col_start_index + previous_month - 1
-        month_columns = df.columns[month_col_start_index:last_month_index]
+        
+        if previous_month == 12:
+            last_month_idx = COLUMNA_COMPRAS_MES_START_INDEX + previous_month
+        else:
+            last_month_idx = COLUMNA_COMPRAS_MES_START_INDEX + previous_month
+        
+        month_columns = df.columns[COLUMNA_COMPRAS_MES_START_INDEX:last_month_idx]
 
         if not all(col in df.columns for col in [ceco_column] + list(month_columns)):
             raise ValueError(f"Missing required columns in '{file_path}'.")
@@ -210,8 +215,9 @@ def process_pyg_files(df, directory, previous_month, previous_year):
         compras = row[COLUMNA_COMPRAS]
 
         # Construct a regex pattern to match the file name
-        file_pattern = re.compile(r"^[^\d]*?(\d+)_(\d{4})_(\d{1,2})_PyG\.csv$")
-
+        #file_pattern = re.compile(r"^[^\d]*?(\d+)_(\d{4})_(\d{1,2})_PyG\.csv$")
+        file_pattern = re.compile(r".*?(\d+)_?(\d{4})_?(\d{1,2})_PyG\.csv$", re.IGNORECASE)
+        
         found_file = None
         for filename in os.listdir(directory):
             match = file_pattern.match(filename)

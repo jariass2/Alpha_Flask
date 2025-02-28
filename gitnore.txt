@@ -1,0 +1,70 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+env/
+*.swp
+*~
+*.bak
+*.tmp
+*.log
+*.egg-info
+
+
+# Docker
+docker-compose.override.yml
+.dockerenv
+Dockerfile.local
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-*
+*.tmproj
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Distribution / Packaging
+dist/
+build/
+*.egg
+*.whl
+MANIFEST
+
+# PyInstaller
+/dist
+/build
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Others
+tmp/
+temp/
+log/
+*.orig
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.key
+*.cert

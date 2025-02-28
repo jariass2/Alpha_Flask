@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./POC:/app/POC  # Mapea la carpeta POC de tu host al contenedor
+    environment:
+      - FLASK_APP=app.py
+    restart: always # Reinicia el contenedor automáticamente si falla

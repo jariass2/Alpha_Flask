@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Remix Icon CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --primary-dark: #1d4ed8;
+            --success-color: #059669;
+            --danger-color: #dc2626;
+            --bg-color: #f1f5f9;
+            --card-bg: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --border-color: #e2e8f0;
+
+            /* Hover colors */
+            --primary-hover: #eff6ff;
+            --success-hover: #f0fdf4;
+            --danger-hover: #fef2f2;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background-color: transparent;
+            box-shadow: none;
+            padding: 1.5rem 0;
+        }
+
+        .navbar-brand {
+            padding: 0;
+        }
+
+        .navbar-brand img {
+            height: 60px;
+            transition: transform 0.2s ease;
+        }
+
+        .navbar-brand:hover img {
+            transform: scale(1.02);
+        }
+
+        .user-menu .btn {
+            color: var(--text-primary);
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .dropdown-menu {
+            background: var(--card-bg);
+            border: none;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+        }
+
+        .dropdown-item {
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        .dropdown-item:hover {
+            background-color: var(--bg-color);
+        }
+
+
+        .output-container {
+            background: var(--card-bg);
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .output-container .title {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .output-container .title i {
+            font-size: 1.25rem;
+            color: var(--primary-color);
+        }
+
+        .output-container pre {
+            background: var(--bg-color);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            font-family: 'Menlo', monospace;
+            font-size: 0.875rem;
+            line-height: 1.5;
+        }
+
+        .status {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.375rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .status.success {
+            background-color: #ecfdf5;
+            color: var(--success-color);
+        }
+
+        .status.error {
+            background-color: #fef2f2;
+            color: var(--danger-color);
+        }
+
+        .status.info {
+            background-color: #eff6ff;
+            color: var(--primary-color);
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: none;
+            border-radius: 0.75rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .card-title {
+            color: var(--text-primary);
+            font-weight: 600;
+            font-size: 1.125rem;
+        }
+
+        .table {
+            margin-bottom: 0;
+        }
+
+        .table th {
+            font-weight: 700;
+            color: var(--text-primary);
+            border-bottom: 1px solid var(--border-color);
+            padding: 0.75rem 1rem;
+            background: transparent;
+        }
+
+        .table td {
+            padding: 0.4rem 1rem;
+            color: var(--text-primary);
+            vertical-align: middle;
+        }
+
+        .table tr:hover {
+            background-color: var(--bg-color);
+        }
+
+        .timestamp {
+            font-family: 'Menlo', monospace;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        .btn-light {
+            background: transparent;
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-light:hover {
+            background: var(--bg-color);
+        }
+
+        @media (max-width: 768px) {
+            .btn-action {
+                padding: 1rem;
+            }
+
+            .btn-action i {
+                font-size: 1.25rem;
+            }
+
+            .btn-action .btn-text {
+                font-size: 1rem;
+            }
+        }
+
+        /* Clase para la animación de giro del icono */
+        .animate-spin-fast {
+            animation: spin 1.2s linear infinite; /* Giro más rápido */
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /* Oculta el loading overlay original */
+        .loading-overlay {
+            display: none !important; /* Asegura que no se muestre */
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../static/img/alphaespai_services.png" alt="AlphaESPAI" class="img-fluid">
+            </a>
+            <!-- Menu Desplegable Tailwind -->
+            <div class="relative ml-auto" id="dropdown-menu">
+                <button onclick="toggleDropdown()" class="inline-flex items-center px-4 py-2 font-medium rounded-md text-gray-700 bg-gray-100 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600" type="button" aria-expanded="false">
+                    <i class="ri-user-circle-fill mr-2 align-middle inline-block text-gray-900 text-xl"></i>
+                    {{ current_user.id }}
+                    <span class="ml-1 px-2 py-0.5 text-xs font-semibold rounded-full {% if current_user.is_admin() %}bg-primary-500 text-gray-900{% else %}bg-gray-400 text-gray-700{% endif %}">
+                        {% if current_user.is_admin() %}Admin{% else %}Usuario{% endif %}
+                    </span>
+                    <i class="ri-arrow-down-s-line ml-2 align-middle inline-block text-gray-900 text-xl"></i>
+                </button>
+                <ul id="menu-dropdown" class="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-md hidden">
+                    {% if current_user.is_admin() %}
+                    <li><a href="#" onclick="mostrarGestionUsuarios(); toggleDropdown(); return false;" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">
+                        <i class="ri-group-fill mr-2 align-middle inline-block text-gray-900 text-xl"></i>Gestionar Usuarios
+                    </a></li>
+                    <li><a href="#" onclick="generarToken(); toggleDropdown(); return false;" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">
+                        <i class="ri-key-fill mr-2 align-middle inline-block text-gray-900 text-xl"></i>Generar Token API
+                    </a></li>
+                    <li><a href="#" onclick="mostrarTokens(); toggleDropdown(); return false;" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">
+                        <i class="ri-list-check mr-2 align-middle inline-block text-gray-900 text-xl"></i>Ver Tokens
+                    </a></li>
+                    <li><a href="#" onclick="showLogs(); toggleDropdown(); return false;" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">
+                        <i class="ri-file-text-fill mr-2 align-middle inline-block text-gray-900 text-xl"></i>Ver Logs
+                    </a></li>
+                    <li><a href="#" onclick="borrarLogs(); toggleDropdown(); return false;" class="block px-4 py-2 text-red-600 hover:bg-gray-100">
+                        <i class="ri-delete-bin-fill mr-2 align-middle inline-block text-gray-900 text-xl"></i>Borrar Logs
+                    </a></li>
+                    <li class="border-t border-gray-200 my-1"></li>
+                    {% endif %}
+                    <li><a href="{{ url_for('logout') }}" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">
+                        <i class="ri-logout-box-r-fill mr-2 align-middle inline-block text-gray-900 text-xl"></i>Cerrar Sesión
+                    </a></li>
+                </ul>
+            </div>
+            <!-- Fin Menu Desplegable Tailwind -->
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="dashboard-container">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <button id="ejecutarSecuenciaBtn" onclick="ejecutarSecuencia()" class="w-100 bg-white border border-gray-200 text-gray-900 p-6 rounded-lg transition-all duration-200 ease-in-out flex flex-col items-start gap-4 hover:bg-green-100 hover:border-green-500 hover:translate-y-[-2px]">
+                        <i id="playIcon" class="ri-play-fill text-xl text-gray-900 transition-colors duration-200 ease-in-out hover:text-green-500 align-middle inline-block"></i>
+                        <span class="text-xl font-semibold transition-colors duration-200 ease-in-out hover:text-gray-900">Ejecutar Secuencia</span>
+                        <p class="text-sm text-gray-600 transition-colors duration-200 ease-in-out hover:text-gray-900">Inicia la secuencia automatizada de scripts programados</p>
+                    </button>
+                </div>
+                <div class="col-md-6">
+                    <button id="ejecutarBorradoBtn" onclick="ejecutarBorrado()" class="w-100 bg-white border border-gray-200 text-gray-900 p-6 rounded-lg transition-all duration-200 ease-in-out flex flex-col items-start gap-4 hover:bg-red-100 hover:border-red-500 hover:translate-y-[-2px]">
+                        <i id="deleteIcon" class="ri-delete-bin-fill text-xl text-gray-900 transition-colors duration-200 ease-in-out hover:text-red-500 align-middle inline-block"></i>
+                        <span class="text-xl font-semibold transition-colors duration-200 ease-in-out hover:text-gray-900">Ejecutar Borrado</span>
+                        <p class="text-sm text-gray-600 transition-colors duration-200 ease-in-out hover:text-gray-900">Limpia y elimina archivos innecesarios del sistema</p>
+                    </button>
+                </div>
+            </div>
+
+            <div id="outputContainer" class="output-container" style="display: none;"></div>
+        </div>
+    </div>
+
+    <!-- Modal para crear/editar usuario -->
+    <div id="userModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Nuevo Usuario</h3>
+                <button class="modal-close" onclick="closeUserModal()">×</button>
+            </div>
+            <form id="userForm" onsubmit="handleUserSubmit(event)">
+                <input type="hidden" id="editUserId">
+                <div class="form-group">
+                    <label for="username">Usuario</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password">
+                </div>
+                <div class="form-group">
+                    <label for="role">Rol</label>
+                    <select id="role" required>
+                        <option value="user">Usuario</option>
+                        <option value="admin">Administrador</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Guardar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay" style="display: none;"> <!-- ESTABLECIDO EN DISPLAY: NONE POR DEFECTO -->
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Cargando...</span>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function toggleDropdown() {
+            document.getElementById('menu-dropdown').classList.toggle('hidden');
+        }
+
+        function showLoading() {
+            document.getElementById('loadingOverlay').style.display = 'flex';
+        }
+
+        function hideLoading() {
+            document.getElementById('loadingOverlay').style.display = 'none';
+        }
+
+        function showOutput(title, content, icon, status = 'info', elapsedTime = null) { // Añadido elapsedTime como argumento
+            const outputContainer = document.getElementById('outputContainer');
+            outputContainer.style.display = 'block';
+
+            let statusHtml = '';
+            if (status === 'success') {
+                statusHtml = '<div class="status success"><i class="ri-checkbox-circle-fill align-middle inline-block text-gray-900 text-xl"></i> Completado</div>';
+            } else if (status === 'error') {
+                statusHtml = '<div class="status error"><i class="ri-close-circle-fill align-middle inline-block text-gray-900 text-xl"></i> Error</div>';
+            } else {
+                statusHtml = '<div class="status info"><i class="ri-information-fill align-middle inline-block text-gray-900 text-xl"></i> Información</div>';
+            }
+
+            let timeDisplay = ''; // Variable para mostrar el tiempo
+            if (elapsedTime !== null) {
+                timeDisplay = `<div class="timestamp">Tiempo de ejecución: ${elapsedTime}</div>`; // Muestra el tiempo de ejecución
+            }
+
+            outputContainer.innerHTML = `
+                <div class="title">
+                    <i class="${icon} align-middle inline-block text-gray-900 text-xl"></i>
+                    <span>${title}</span>
+                </div>
+                ${timeDisplay} <!-- Insertamos el display del tiempo aquí -->
+                ${statusHtml}
+                <pre>${content}</pre>
+            `;
+            outputContainer.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        async function ejecutarSecuencia() {
+            const btnEjecutarSecuencia = document.getElementById('ejecutarSecuenciaBtn');
+            const playIcon = document.getElementById('playIcon');
+            let startTime; // Variable para almacenar el tiempo de inicio
+
+            // Animación al pulsar (opcional)
+            btnEjecutarSecuencia.classList.add('transform', 'scale-95', 'bg-green-200');
+            setTimeout(() => {
+                btnEjecutarSecuencia.classList.remove('transform', 'scale-95', 'bg-green-200');
+            }, 150);
+
+            // Iniciar animación de giro continuo en el icono
+            playIcon.classList.add('animate-spin-fast');
+            btnEjecutarSecuencia.disabled = true; // Deshabilitar el botón mientras se ejecuta
+
+            startTime = performance.now(); // Registrar el tiempo de inicio
+
+            try {
+                // showLoading();  <-- ELIMINADO
+                const response = await fetch('/ejecutar_secuencia');
+                const resultado = await response.text();
+                const status = resultado.includes('❌') ? 'error' : 'success';
+                const endTime = performance.now(); // Registrar el tiempo de finalización
+                const elapsedTime = ((endTime - startTime) / 1000).toFixed(2); // Calcular tiempo en segundos
+
+                showOutput(
+                    'Ejecución de Secuencia',
+                    resultado,
+                    'ri-play-circle-fill',
+                    status,
+                    `${elapsedTime} segundos` // Pasar el tiempo de ejecución a showOutput
+                );
+            } catch (error) {
+                console.error('Error:', error);
+                showOutput(
+                    'Error en la Ejecución',
+                    'Ha ocurrido un error al ejecutar la secuencia.',
+                    'ri-error-warning-fill',
+                    'error'
+                );
+            } finally {
+                // Detener animación de giro y re-habilitar el botón
+                playIcon.classList.remove('animate-spin-fast');
+                btnEjecutarSecuencia.disabled = false;
+                // hideLoading();  <-- ELIMINADO
+            }
+        }
+
+        async function ejecutarBorrado() {
+            const btnEjecutarBorrado = document.getElementById('ejecutarBorradoBtn');
+            const deleteIcon = document.getElementById('deleteIcon');
+            let startTime; // Variable para almacenar el tiempo de inicio
+
+            // Animación al pulsar (opcional)
+            btnEjecutarBorrado.classList.add('transform', 'scale-95', 'bg-red-200');
+            setTimeout(() => {
+                btnEjecutarBorrado.classList.remove('transform', 'scale-95', 'bg-red-200');
+            }, 150);
+
+            // Iniciar animación de giro continuo en el icono de borrado (puedes cambiar a otra animación si quieres)
+            deleteIcon.classList.add('animate-spin-fast'); // Reutilizamos la misma animación de giro
+            btnEjecutarBorrado.disabled = true; // Deshabilitar el botón mientras se ejecuta
+
+            startTime = performance.now(); // Registrar el tiempo de inicio
+
+            try {
+                // showLoading();  <-- ELIMINADO
+                const response = await fetch('/ejecutar_borrado');
+                const resultado = await response.text();
+                const status = resultado.includes('❌') ? 'error' : 'success';
+                const endTime = performance.now(); // Registrar el tiempo de finalización
+                const elapsedTime = ((endTime - startTime) / 1000).toFixed(2); // Calcular tiempo en segundos
+
+                showOutput(
+                    'Ejecución de Borrado',
+                    resultado,
+                    'ri-delete-bin-fill',
+                    status,
+                    `${elapsedTime} segundos` // Pasar el tiempo de ejecución a showOutput
+                );
+            } catch (error) {
+                console.error('Error:', error);
+                showOutput(
+                    'Error en el Borrado',
+                    'Ha ocurrido un error al ejecutar el borrado.',
+                    'ri-error-warning-fill',
+                    'error'
+                );
+            } finally {
+                // Detener animación de giro y re-habilitar el botón
+                deleteIcon.classList.remove('animate-spin-fast');
+                btnEjecutarBorrado.disabled = false;
+                // hideLoading();  <-- ELIMINADO
+            }
+        }
+
+        async function generarToken() {
+            try {
+                const response = await fetch('/api/token', {
+                    method: 'POST'
+                });
+                const data = await response.json();
+
+                if (response.ok) {
+                    showOutput(
+                        'Token Generado',
+                        `Nuevo token: ${data.token}\n${data.note}`,
+                        'ri-checkbox-circle-fill',
+                        'success'
+                    );
+                    mostrarTokens();  // Actualizamos la lista de tokens
+                } else {
+                    showOutput(
+                        'Error',
+                        data.error || 'Error al generar el token',
+                        'ri-error-warning-fill',
+                        'error'
+                    );
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                showOutput(
+                    'Error',
+                    'Error al generar el token',
+                    'ri-error-warning-fill',
+                    'error'
+                );
+            }
+        }
+
+        async function mostrarTokens() {
+            try {
+                const response = await fetch('/api/tokens');
+                const data = await response.json();
+
+                if (!data.success) {
+                    showOutput(
+                        'Error',
+                        data.error || 'Ha ocurrido un error al obtener los tokens',
+                        'ri-error-warning-fill',
+                        'error'
+                    );
+                    return;
+                }
+
+                if (data.tokens && data.tokens.length > 0) {
+                    showOutput(
+                        'Tokens Activos',
+                        'Tu token actual es:\n' + data.tokens[0],
+                        'ri-key-fill',
+                        'info'
+                    );
+                } else {
+                    showOutput(
+                        'Sin Tokens Activos',
+                        'No tienes ningún token activo en este momento.',
+                        'ri-key-fill',
+                        'info'
+                    );
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                showOutput(
+                    'Error',
+                    'Error de conexión al obtener los tokens.',
+                    'ri-error-warning-fill',
+                    'error'
+                );
+            }
+        }
+
+        async function mostrarGestionUsuarios() {
+            try {
+                const response = await fetch('/admin/users');
+                const data = await response.json();
+
+                const usersHtml = `
+                    <div class="user-management">
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <h3>Gestión de Usuarios</h3>
+                            <button class="btn btn-primary" onclick="openUserModal()">
+                                <i class="ri-user-add-fill align-middle inline-block text-gray-900 text-xl"></i> Nuevo Usuario
+                            </button>
+                        </div>
+                        <div class="user-table">
+                            <table class="table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Usuario</th>
+                                        <th>Rol</th>
+                                        <th>Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${data.users.map(user => `
+                                        <tr>
+                                            <td>${user.username}</td>
+                                            <td>
+                                                <span class="badge ${user.role === 'admin' ? 'bg-primary' : 'bg-secondary'}">
+                                                    ${user.role === 'admin' ? 'Administrador' : 'Usuario'}
+                                                </span>
+                                            </td>
+                                            <td class="user-actions">
+                                                <button class="edit" onclick="editUser('${user.username}')">
+                                                    <i class="ri-pencil-fill align-middle inline-block text-gray-900 text-xl"></i>
+                                                </button>
+                                                ${user.username !== 'admin' ? `
+                                                    <button class="delete" onclick="deleteUser('${user.username}')">
+                                                        <i class="ri-delete-bin-7-fill align-middle inline-block text-gray-900 text-xl"></i>
+                                                    </button>
+                                                ` : ''}
+                                            </td>
+                                        </tr>
+                                    `).join('')}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                `;
+
+                const outputContainer = document.getElementById('outputContainer');
+                outputContainer.style.display = 'block';
+                outputContainer.innerHTML = usersHtml;
+            } catch (error) {
+                console.error('Error:', error);
+                showOutput(
+                    'Error al Cargar Usuarios',
+                    'Ha ocurrido un error al cargar la lista de usuarios.',
+                    'ri-error-warning-fill',
+                    'error'
+                );
+            }
+        }
+
+        async function showLogs() {
+            try {
+                const response = await fetch('/get_logs');
+                const data = await response.json();
+
+                if (!data.success) {
+                    showOutput(
+                        'Error',
+                        data.error || 'Ha ocurrido un error al obtener los logs',
+                        'ri-error-warning-fill',
+                        'error'
+                    );
+                    return;
+                }
+
+                const logsHtml = `
+                    <div class="logs-management">
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <h3>Registro de Actividad</h3>
+                        </div>
+                        <div class="log-table">
+                            <table class="table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Fecha y Hora</th>
+                                        <th>Usuario</th>
+                                        <th>Acción</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${data.logs.reverse().map(log => `
+                                        <tr>
+                                            <td class="timestamp">${log.timestamp}</td>
+                                            <td>${log.user_id}</td>
+                                            <td>${log.action}</td>
+                                        </tr>
+                                    `).join('')}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                `;
+
+                const outputContainer = document.getElementById('outputContainer');
+                outputContainer.style.display = 'block';
+                outputContainer.innerHTML = logsHtml;
+            } catch (error) {
+                console.error('Error:', error);
+                showOutput(
+                    'Error',
+                    'Error de conexión al obtener los logs.',
+                    'ri-error-warning-fill',
+                    'error'
+                );
+            }
+        }
+
+        function openUserModal(username = null) {
+            const modal = document.getElementById('userModal');
+            const form = document.getElementById('userForm');
+            const title = document.getElementById('modalTitle');
+            const passwordInput = document.getElementById('password');
+
+            if (username) {
+                title.textContent = 'Editar Usuario';
+                document.getElementById('username').value = username;
+                document.getElementById('username').disabled = true;
+                passwordInput.required = false;
+                document.getElementById('editUserId').value = username;
+            } else {
+                title.textContent = 'Nuevo Usuario';
+                form.reset();
+                document.getElementById('username').disabled = false;
+                passwordInput.required = true;
+                document.getElementById('editUserId').value = '';
+            }
+
+            modal.style.display = 'block';
+        }
+
+        function closeUserModal() {
+            document.getElementById('userModal').style.display = 'none';
+        }
+
+        async function handleUserSubmit(event) {
+            event.preventDefault();
+            const editUserId = document.getElementById('editUserId').value;
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const role = document.getElementById('role').value;
+
+            try {
+                const url = editUserId ? `/admin/users/${editUserId}` : '/admin/users';
+                const method = editUserId ? 'PUT' : 'POST';
+                const data = editUserId ?
+                    { role, ...(password ? { password } : {}) } :
+                    { username, password, role };
+
+                const response = await fetch(url, {
+                    method,
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                if (response.ok) {
+                    closeUserModal();
+                    mostrarGestionUsuarios();
+                    showOutput(
+                        editUserId ? 'Usuario Actualizado' : 'Usuario Creado',
+                        editUserId ? 'Usuario actualizado correctamente.' : 'Usuario creado correctamente.',
+                        'ri-checkbox-circle-fill',
+                        'success'
+                    );
+                } else {
+                    const error = await response.json();
+                    throw new Error(error.error);
+                }
+            } catch (error) {
+                showOutput(
+                    'Error',
+                    error.message,
+                    'ri-error-warning-fill',
+                    'error'
+                );
+            }
+        }
+
+        async function deleteUser(username) {
+            if (!confirm(`¿Estás seguro de que quieres eliminar al usuario ${username}?`)) {
+                return;
+            }
+
+            try {
+                const response = await fetch(`/admin/users/${username}`, {
+                    method: 'DELETE'
+                });
+
+                if (response.ok) {
+                    mostrarGestionUsuarios();
+                    showOutput(
+                        'Usuario Eliminado',
+                        'Usuario eliminado correctamente.',
+                        'ri-checkbox-circle-fill',
+                        'success'
+                    );
+                } else {
+                    const error = await response.json();
+                    throw new Error(error.error);
+                }
+            } catch (error) {
+                showOutput(
+                    'Error',
+                    error.message,
+                    'ri-error-warning-fill',
+                    'error'
+                );
+            }
+        }
+
+        async function editUser(username) {
+            try {
+                const response = await fetch('/admin/users');
+                const data = await response.json();
+                const user = data.users.find(u => u.username === username);
+
+                if (user) {
+                    document.getElementById('role').value = user.role;
+                    openUserModal(username);
+                }
+            } catch (error) {
+                showOutput(
+                    'Error',
+                    'Error al cargar los datos del usuario.',
+                    'ri-error-warning-fill',
+                    'error'
+                );
+            }
+        }
+
+        async function borrarLogs() {
+            if (confirm('¿Estás seguro de que quieres borrar todos los logs? Esta acción no se puede deshacer.')) {
+                fetch('/borrar_logs', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                })
+                .then(response => {
+                    if (response.ok) {
+                        showOutput(
+                            'Logs Borrados',
+                            'Logs borrados correctamente.',
+                            'ri-checkbox-circle-fill',
+                            'success'
+                        );
+                         // No recargamos la página, solo actualizamos la salida
+                    } else {
+                        return response.json().then(data => {
+                            throw new Error('Error al borrar los logs: ' + (data.error || 'Error desconocido'));
+                        });
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    showOutput(
+                        'Error',
+                        'Error al borrar los logs: ' + error.message,
+                        'ri-error-warning-fill',
+                        'error'
+                    );
+                });
+            }
+        }
+    </script>
+</body>
+</html>
