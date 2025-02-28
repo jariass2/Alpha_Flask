@@ -1388,5 +1388,55 @@
         "timestamp": "2025-02-28 17:51:11",
         "action": "Ejecutar borrado",
         "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-28 17:55:14",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-28 17:55:21",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-28 17:55:22",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-28 18:05:16",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-28 18:05:18",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-28 18:06:15",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-28 18:06:17",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-28 18:10:09",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-28 18:10:11",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-28 18:10:13",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
     }
 ]

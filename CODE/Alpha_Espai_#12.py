@@ -38,7 +38,7 @@ COLUMNA_MASTERFILE_EST = 'EST'
 
 # Índices de inicio para las columnas de mes en los archivos Excel
 COLUMNA_VENTAS_MES_START_INDEX = 5
-COLUMNA_COMPRAS_MES_START_INDEX = 11
+COLUMNA_COMPRAS_MES_START_INDEX = 10
 
 # Columnas en los PyG
 COLUMNA_PYG_CONCEPTO = 'concepto'
@@ -165,6 +165,7 @@ def process_compras(directory, sheet_name, previous_month, month_col_start_index
 
         compras_df = df[[ceco_column] + list(month_columns)].copy()
         compras_df = compras_df.rename(columns={ceco_column: COLUMNA_COMPRAS_CECO})
+        
         # Calculate sum and replace 0 with NaN
         compras_df[COLUMNA_COMPRAS] = compras_df[month_columns].apply(
             lambda row: sum(convert_euro_format(x) for x in row if pd.notna(x)), axis=1

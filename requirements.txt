@@ -9,3 +9,4 @@ ipython
 ipykernel
 xlsxwriter
 python-dotenv
+openpyxl
