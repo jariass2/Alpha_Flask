@@ -1,0 +1,1447 @@
+[
+    {
+        "timestamp": "2024-11-25 13:36:03",
+        "action": "Borrado de logs",
+        "user_id": "admin"
+    },
+    {
+        "timestamp": "2024-11-25 13:36:04",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "admin"
+    },
+    {
+        "timestamp": "2024-11-25 13:38:50",
+        "action": "Ejecutar borrado",
+        "user_id": "admin"
+    },
+    {
+        "timestamp": "2024-11-25 13:38:58",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "admin"
+    },
+    {
+        "timestamp": "2024-12-03 19:11:47",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:11:50",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:12:04",
+        "action": "Cierre de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:14:43",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:14:45",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:26:51",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:26:53",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:26:57",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:27:02",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:27:04",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:27:05",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:27:09",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:27:14",
+        "action": "Cierre de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:41:58",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:42:03",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:44:14",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:44:15",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:44:17",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:44:18",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:44:22",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:44:28",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:44:34",
+        "action": "Cierre de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:44:37",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:44:38",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:49:40",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:49:41",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:53:52",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:53:54",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:53:59",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:57:05",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:57:06",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:58:01",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:58:21",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:58:28",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:59:56",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:59:57",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 19:59:59",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 20:00:12",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 20:00:33",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 20:00:34",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 20:00:37",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 20:00:45",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 20:00:58",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 20:01:07",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-03 20:01:17",
+        "action": "Listar usuarios",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-04 09:59:22",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-04 10:36:05",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-04 10:36:07",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-04 10:36:14",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-04 10:36:46",
+        "action": "Cierre de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-04 10:36:50",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-04 10:37:36",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-04 10:38:03",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-04 10:38:10",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-04 10:38:12",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-05 10:16:43",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-05 10:17:02",
+        "action": "Listar usuarios",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-05 10:17:23",
+        "action": "Crear usuario",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-05 10:17:23",
+        "action": "Listar usuarios",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-05 10:17:27",
+        "action": "Listar usuarios",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-05 10:17:28",
+        "action": "Actualizar usuario: alfredo",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-05 10:17:28",
+        "action": "Listar usuarios",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-05 10:17:33",
+        "action": "Eliminar usuario: alfredo",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-05 10:17:33",
+        "action": "Listar usuarios",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-05 10:17:36",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-05 10:17:49",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-05 10:18:22",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-05 10:18:31",
+        "action": "Cierre de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-05 10:18:44",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "usuario"
+    },
+    {
+        "timestamp": "2024-12-05 10:18:51",
+        "action": "Cierre de sesi\u00f3n",
+        "user_id": "usuario"
+    },
+    {
+        "timestamp": "2024-12-09 13:27:09",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-09 13:27:10",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-09 13:27:51",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-09 13:27:58",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-09 17:57:33",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-09 17:57:35",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-09 17:57:43",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-09 17:57:47",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-09 18:08:08",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-09 18:08:12",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-09 18:08:17",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-09 18:10:47",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-09 18:10:50",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-09 18:10:54",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 09:41:47",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 09:41:48",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 09:43:08",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 09:43:12",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 09:43:14",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 09:59:45",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 09:59:53",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 10:00:34",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 10:00:41",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 10:03:40",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 10:03:51",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 10:06:06",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 10:06:11",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 10:07:02",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 10:07:09",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 10:14:23",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 10:14:29",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 10:20:49",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-12 10:20:56",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:06:19",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:06:22",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:11:25",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:11:32",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:19:17",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:19:20",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:22:08",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:22:10",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:24:17",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:24:18",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:30:24",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:30:25",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:33:19",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:33:20",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:33:23",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:33:24",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:33:58",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:33:59",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:34:21",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:34:22",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:34:24",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:35:31",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:35:37",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:53:54",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:53:57",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:53:59",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:55:26",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 10:55:28",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 11:01:35",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2024-12-27 11:01:37",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-01 12:15:02",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-01 12:15:04",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-01 12:15:19",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-03 11:27:51",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-03 11:27:52",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-03 18:03:14",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-03 18:03:17",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-03 18:13:12",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-03 18:13:14",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-03 18:18:42",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-03 18:18:47",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-03 18:21:19",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-03 18:21:20",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-04 10:15:05",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-04 10:15:44",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-04 10:15:45",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-04 10:16:48",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-04 10:17:00",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-04 10:18:15",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-04 10:22:47",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-04 10:22:51",
+        "action": "Cierre de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-04 10:23:53",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-04 10:24:28",
+        "action": "Cierre de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 17:57:51",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 17:57:53",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:16:23",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:16:25",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:20:45",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:20:47",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:20:49",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:25:57",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:25:58",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:26:02",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:34:48",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:34:50",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:34:52",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:41:30",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:41:31",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:41:35",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:46:15",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:46:17",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 18:46:23",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 19:37:03",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 19:37:05",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 19:37:15",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 19:45:15",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 19:45:16",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 19:45:20",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 19:51:23",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 19:51:24",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 19:51:30",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 19:51:32",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 19:58:33",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 19:58:34",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 19:58:45",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 20:05:49",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 20:05:51",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 20:05:56",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 20:08:15",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 20:08:16",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-10 20:08:21",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:27:22",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:27:24",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:29:00",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:29:37",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:29:38",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:34:35",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:34:37",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:34:42",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:35:04",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:35:06",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:35:42",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:35:59",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:44:06",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:44:08",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:45:49",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:46:00",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:47:07",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:47:10",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:51:58",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:51:59",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:55:00",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:55:01",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:55:06",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:56:23",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:56:29",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:56:38",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:56:43",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:57:04",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:57:05",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:57:11",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:58:46",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-13 10:58:50",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 10:01:52",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 10:01:53",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 10:02:16",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 10:02:18",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 10:02:34",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 10:02:50",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 10:02:51",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 10:02:55",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:37:50",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:37:51",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:37:55",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:44:25",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:44:27",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:44:31",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:46:01",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:46:02",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:46:03",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:50:48",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:50:50",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:50:55",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:51:56",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:51:57",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:51:57",
+        "action": "Limpiar zona de ejecuci\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:52:03",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:52:03",
+        "action": "Limpiar zona de ejecuci\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:56:12",
+        "action": "Login",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:56:13",
+        "action": "Perform deletion",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:56:13",
+        "action": "Clear execution area",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:56:17",
+        "action": "Execute script sequence",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 11:56:17",
+        "action": "Clear execution area",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 12:25:37",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 12:25:39",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-14 12:25:41",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-15 13:58:16",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-15 13:58:17",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-15 13:58:18",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-15 14:59:50",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-15 14:59:52",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-15 14:59:54",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-15 15:00:37",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-15 15:08:10",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-15 15:08:12",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-15 15:08:13",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-27 15:36:39",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-27 15:36:41",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-27 15:37:11",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-27 15:43:45",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-27 15:43:49",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-27 15:46:20",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-27 15:46:21",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-27 15:46:27",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-27 15:48:18",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-27 15:48:20",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-27 15:48:25",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-27 15:49:47",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-27 15:49:55",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-28 10:33:23",
+        "action": "Inicio de sesi\u00f3n",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-28 10:33:24",
+        "action": "Ejecutar borrado",
+        "user_id": "jariass"
+    },
+    {
+        "timestamp": "2025-02-28 10:33:32",
+        "action": "Ejecutar secuencia de scripts",
+        "user_id": "jariass"
+    }
+]
